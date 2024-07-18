@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color:rgb(24, 224, 208);
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+.nav {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+
+}
+
+.nav ul li {
+    
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgba(66, 65, 131, 0.781);
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color:rgb(39, 17, 59);
+    font-size: 30px;
+}
+
+.nav ul li a .fa-solid {
+    margin-left: 4px;
+    transition: transform 0.5s ease;
+}
+
+.nav ul li:hover > a .fa-solid {
+    transform: rotate(180deg);
+}
+
+.nav ul li .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    background-color:White;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding: 10px;
+     width: 150px; 
+}
+
+.nav ul li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    margin-top: 10px;
+    border-bottom: gray 0.5px solid;
+}
+
+.sub-menu li a {
+    color:orangered;
+    font-size: 16px;
+}
+.nav ul li input[type="text"] {
+    padding: 5px;
+}
+.home{
+    height: 680px;
+}
+h1{
+    margin-top:-400px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+h1 button{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background-color:rgb(24, 224, 208);
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+h1 button:hover{
+    background-color: rgb(92, 57, 124);
+    color: white;
+}
+.header{
+    padding-top: 200px;
+    height: 500px;
+    width: 100%;
+}
+.header img{
+    margin-left: 150px;
+}
+.header p{
+    margin-left: 150px;
+    font-size: 34px;
+}
