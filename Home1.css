@@ -1,0 +1,353 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color:rgb(24, 224, 208);
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+.nav {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+
+}
+
+.nav ul li {
+    
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgba(66, 65, 131, 0.781);
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color:rgb(39, 17, 59);
+    font-size: 30px;
+}
+
+.nav ul li a .fa-solid {
+    margin-left: 4px;
+    transition: transform 0.5s ease;
+}
+
+.nav ul li:hover > a .fa-solid {
+    transform: rotate(180deg);
+}
+
+.nav ul li .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    background-color:White;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding: 10px;
+     width: 150px; 
+}
+
+.nav ul li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    margin-top: 10px;
+    border-bottom: gray 0.5px solid;
+}
+
+.sub-menu li a {
+    color:orangered;
+    font-size: 16px;
+}
+.nav ul li input[type="text"] {
+    padding: 5px;
+}
+.home{
+    height: 920px;
+}
+h1{
+    margin-top:-400px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+h1 button{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background-color:rgb(24, 224, 208);
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+h1 button:hover{
+    background-color: rgb(92, 57, 124);
+    color: white;
+}
+.header{
+    padding-top: 80px;
+    height: 500px;
+    width: 100%;
+}
+.header img{
+    margin-left: 150px;
+    border-radius: 10px;
+}
+.header p{
+    margin-left: 150px;
+    font-size: 40px;
+}
+.header{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+@media screen and (max-width: 767px) {
+    p {
+        font-size: 45px;
+        color: blueviolet;
+    }
+}
+@media screen and (max-width: 991px) {
+    p {
+        font-size: 50px;
+        color:rgb(116, 73, 17); 
+    }
+}
+.box{
+    margin-top: 550px;
+    height: 570px;
+    width: 100%;
+    border: black solid 3px;
+    border-color: black;
+}
+.ai-nexus{
+    background-color: rgb(234, 238, 229);
+    font-size: 25px;
+}
+.ai-nexus img{
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.ai-nexus h2{
+    text-align: center;
+    margin-left: 650px;
+    margin-top:-400px;
+    font-size: 32px;
+    color:rgb(39, 17, 59); 
+}
+.ai-nexus  p{
+    text-align: center;
+    margin-left: 650px;
+    font-size: 32px;
+   
+}
+.ai-nexus button{
+    height: 50px;
+    width: 190px;
+    border: none;
+    background: rgb(39, 17, 59); 
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.ai-nexus button:hover{
+    background-color:white;
+    color: black;
+}
+.ai-nexus1{
+    margin-top:200px;
+    background-color: rgb(234, 238, 229);
+    font-size: 25px;
+}
+.box1{
+    height: 570px;
+    width: 100%;
+    border: black solid 3px;
+    border-color: black;
+}
+
+.ai-nexus1 img{
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.ai-nexus1 h2{
+    text-align: center;
+    margin-left: 650px;
+    margin-top:-400px;
+    font-size: 32px;
+    color:rgb(39, 17, 59); 
+}
+.ai-nexus1  p{
+    text-align: center;
+    margin-left: 650px;
+    font-size: 32px;
+   
+}
+.ai-nexus1 button{
+    height: 50px;
+    width: 190px;
+    border: none;
+    background: rgb(39, 17, 59); 
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.ai-nexus1 button:hover{
+    background-color:white;
+    color: black;
+}
+.box2{
+    height: 570px;
+    margin-top: 200px;
+    width: 100%;
+    border:black solid 3px;
+    border-color: black;
+}
+.ai-nexus2{
+    background-color: rgb(234, 238, 229);
+    font-size: 25px;
+}
+.ai-nexus2   img{
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.ai-nexus2 h2{
+    text-align: center;
+    margin-left: 650px;
+    margin-top:-400px;
+    font-size: 32px;
+    color:rgb(39, 17, 59); 
+}
+.ai-nexus2  p{
+    text-align: center;
+    margin-left: 650px;
+    font-size: 32px;
+   
+}
+.ai-nexus2 button{
+    height: 50px;
+    width: 190px;
+    border: none;
+    background: rgb(39, 17, 59); 
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.ai-nexus2 button:hover{
+    background-color:white;
+    color: black;
+}
+.box3{
+    height: 570px;
+    margin-top: 200px;
+    width: 100%;
+    border:black solid 3px;
+    border-color: black;
+}
+.ai-nexus3{
+    background-color: rgb(234, 238, 229);
+    font-size: 25px;
+}
+.ai-nexus3   img{
+    margin-top: 70px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.ai-nexus3 h2{
+    text-align: center;
+    margin-left: 650px;
+    margin-top:-400px;
+    font-size: 32px;
+    color:rgb(39, 17, 59); 
+}
+.ai-nexus3  p{
+    text-align: center;
+    margin-left: 650px;
+    font-size: 32px;
+   
+}
+.ai-nexus3 button{
+    height: 50px;
+    width: 190px;
+    border: none;
+    background: rgb(39, 17, 59); 
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.ai-nexus3 button:hover{
+    background-color:white;
+    color: black;
+}
+.h5{
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+}
+.h5 h3{
+    padding-top: 700px;
+}
+.icon{
+    height: 200px;
+}
+.icon h1{
+    text-align: center;
+    color: rgb(255, 253, 253);
+    padding-top: 500px;
+    font-size: 30px;
+    margin-left: 1050px;
+}
+.icon i{
+    font-size: 30px;
+    margin-left: 1300px;
+    color: white;
+}
+.footer{
+    background-color:rgb(32, 192, 179);;
+    height: 600px;
+    width: 100%;
+    border: black solid 1px;
+    margin-top: 250px;
+    padding-left: 10px;
+    display:flex;
+    column-gap: 250px;
+    padding-top: 50px;
+    font-size: 16px;
+}
+.footer li{
+    list-style: none;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer li a:hover{
+    color:  rgb(92, 57, 124);
+    font-size: 25px;
+}
