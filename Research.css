@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+.nav {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+
+}
+
+.nav ul li {
+    
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgba(66, 65, 131, 0.781);
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color:rgb(39, 17, 59);
+    font-size: 30px;
+}
+
+.nav ul li a .fa-solid {
+    margin-left: 4px;
+    transition: transform 0.5s ease;
+}
+
+.nav ul li:hover > a .fa-solid {
+    transform: rotate(180deg);
+}
+
+.nav ul li .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    background-color:White;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding: 10px;
+     width: 150px; 
+}
+
+.nav ul li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    margin-top: 10px;
+    border-bottom: gray 0.5px solid;
+}
+
+.sub-menu li a {
+    color:orangered;
+    font-size: 16px;
+}
+.nav ul li input[type="text"] {
+    padding: 5px;
+}
+h1{
+    margin-top:-660px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.header p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.header h3{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+.header iframe{
+    margin-left: 450px;
+}
+.one{
+    height: 2000px;
+    background: rgb(175, 170, 170);
+}
+.Research{
+    padding-top: 1050px;
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+.Research h1{
+    color: black;
+    margin-top:-850px;
+    text-align: left;
+    margin-left: 60px;
+}
+.Research p{
+    color:  rgb(30, 14, 44);
+    text-align: left;
+    margin-left: 50px;
+}
+.Research iframe{
+    height: 380px;
+    width: 80%;
+    margin-left: 50px;
+}
+.paper{
+    padding-top: 1000px;
+    height: 700px;
+    background-color: rgb(175, 170, 170);
+    
+}
+.paper h1{
+    color: black;
+    margin-top:-800px;
+    text-align: left;
+}
+.paper p{
+    color:  rgb(30, 14, 44);
+    text-align: left;
+}
+.paper iframe{
+    height: 380px;
+    width: 41%;
+    margin-left:10px;
+}
+.arXiv{
+    padding-top: 900px;
+    height: 500px;
+    width: 50%;
+}
+.arXiv h1{
+    color: black;
+    margin-top:-850px;
+    text-align: left;
+    margin-left: 60px;
+}
+.arXiv p{
+    color:  rgb(30, 14, 44);
+    text-align: left;
+    margin-left: 50px;
+}
+.arXiv iframe{
+    height: 380px;
+    width: 80%;
+    margin-left: 50px;
+}
+.Elicit{
+    padding-top: 700px;
+    height: 500px;
+    width: 50%;
+    margin-left: 700px;
+    margin-top: -700px;
+}
+.Elicit h1{
+    color: black;
+    margin-top:-850px;
+    text-align: left;
+    margin-left: 60px;
+}
+.Elicit p{
+    color:  rgb(30, 14, 44);
+    text-align: left;
+    margin-left: 50px;
+}
+.Elicit iframe{
+    height: 380px;
+    width: 88%;
+    margin-left: 50px;
+}
